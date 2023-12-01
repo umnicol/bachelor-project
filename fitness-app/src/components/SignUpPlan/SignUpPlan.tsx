@@ -5,13 +5,13 @@ import Button from '../Button/Button';
 const SignUpPlan: React.FC = () => {
   const plans = [
     { title: 'FREE', description: ['lorem ipsum'], monthlyPrice: 'FREE', yearlyPrice: 'FREE' },
-    { title: 'BASIC', description: ['lorem ipsum', 'lorem ipsum'], monthlyPrice: '59DKK', yearlyPrice: '590DKK' },
-    { title: 'PREMIUM', description: ['lorem ipsum', 'lorem ipsum', 'lorem ipsum'], monthlyPrice: '99DKK', yearlyPrice: '990DKK' },
+    { title: 'BASIC', description: ['lorem ipsum', 'lorem ipsum'], monthlyPrice: '59DKK', yearlyPrice: '410DKK' },
+    { title: 'PREMIUM', description: ['lorem ipsum', 'lorem ipsum', 'lorem ipsum'], monthlyPrice: '99DKK', yearlyPrice: '690DKK' },
   ];
 
   const [selectedPriceDuration, setSelectedPriceDuration] = useState<'monthly' | 'yearly'>('monthly');
   const [selectedPlan, setSelectedPlan] = useState<string>('PREMIUM');
-  
+
   const priceDurationChange = (priceDuration: 'monthly' | 'yearly') => {
     setSelectedPriceDuration(priceDuration);
   };

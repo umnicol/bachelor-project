@@ -7,6 +7,7 @@ import Button from './components/Button/Button';
 import SignInForm from './components/SignInForm/SignInForm';
 import SignUpForm from './components/SignUpForm/SignUpForm';
 import SignUpPlan from './components/SignUpPlan/SignUpPlan';
+import SignUpMethod from './components/SignUpMethod/SignUpMethod';
 
 
 const root = ReactDOM.createRoot(
@@ -19,6 +20,7 @@ root.render(
     <SignInForm/>
     <SignUpForm/>
     <SignUpPlan/>
+    <SignUpMethod/>
   </React.StrictMode>
 );
 
