@@ -7,9 +7,6 @@
   
     form {
       width: 400px;
-      padding: 45px;
-      border-radius: 9px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   
       label {
         margin-bottom: 8px;
@@ -36,22 +33,9 @@
       }
 
       p {
-        margin-top: 45px;
         font-family: 'Exo 2', sans-serif;
+        text-transform: uppercase;
         color: #112526;
-      }
-
-      span {
-        font-family: 'Exo 2', sans-serif;
-        color: #C95243;
-        font-weight: bold;
-        text-decoration: underline;
-
-        &:hover,
-        &:focus {
-          color: #812F2B;
-          cursor: pointer;
-        }
       }
      }
  }
