@@ -17,7 +17,7 @@ const SignUpForm: React.FC = () => {
   };
 
   return (
-    <div className={styles.signinformContainer}>
+    <div className={styles.signupformContainer}>
       <form onSubmit={handleSubmit}>
         <p>Step 1 of 3</p>
       <h2>Create a password to start your membership!</h2>

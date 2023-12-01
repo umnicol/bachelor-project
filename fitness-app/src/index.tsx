@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import Button from './components/Button/Button';
 import SignInForm from './components/SignInForm/SignInForm';
 import SignUpForm from './components/SignUpForm/SignUpForm';
+import SignUpPlan from './components/SignUpPlan/SignUpPlan';
 
 
 const root = ReactDOM.createRoot(
@@ -17,6 +18,7 @@ root.render(
     <Button label={'Book Now'}/>
     <SignInForm/>
     <SignUpForm/>
+    <SignUpPlan/>
   </React.StrictMode>
 );
 
